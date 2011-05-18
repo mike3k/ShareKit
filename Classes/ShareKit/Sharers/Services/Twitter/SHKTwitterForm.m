@@ -76,6 +76,7 @@
 	textView.backgroundColor = [UIColor whiteColor];	
 	textView.autoresizesSubviews = YES;
 	textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    textView.editable = NO;
 	
 	[self.view addSubview:textView];
 }
