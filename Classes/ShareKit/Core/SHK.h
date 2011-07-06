@@ -75,6 +75,7 @@
 - (void)hideCurrentViewControllerAnimated:(BOOL)animated;
 - (void)viewWasDismissed;
 - (UIViewController *)getTopViewController;
+- (UIViewController*)getPresentingViewController;
 
 + (UIBarStyle)barStyle;
 + (UIModalPresentationStyle)modalPresentationStyle;
